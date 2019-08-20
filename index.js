@@ -29,7 +29,8 @@ ccg.prototype.options = {
 	reconnect: true,
 	host: "localhost",
 	port: 5250,
-	debug: false
+	debug: false,
+	reconnectInterval: 5
 };
 
 ccg.prototype.log = function () {
