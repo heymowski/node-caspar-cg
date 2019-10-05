@@ -54,3 +54,5 @@ require("./lib/data")(ccg);
 require("./lib/template")(ccg);
 // mixer commands
 require("./lib/mixer")(ccg);
+// Server Commands
+require("./lib/server")(ccg);
